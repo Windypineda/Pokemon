@@ -75,10 +75,6 @@ export default function Productos() {
         </div>
       </nav>
 
-      <div>
-        
-      </div>
-
       <div className="flex justify-center mt-5">
         {alerta ? (
           <AlertaExito mensaje="Se ha enviado el producto al carrito!!"></AlertaExito>

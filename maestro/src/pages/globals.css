@@ -17,11 +17,12 @@
 }
 
 body {
-  background: rgb(173, 175, 205);
+  align-items: center;
+  background: rgb(214, 185, 22);
   background: linear-gradient(
     90deg,
     rgba(173, 175, 205, 1) 0%,
-    rgba(122, 128, 210, 1) 49%,
+    rgb(76, 85, 216) 49%,
     rgba(195, 156, 156, 1) 100%
   );
 }
