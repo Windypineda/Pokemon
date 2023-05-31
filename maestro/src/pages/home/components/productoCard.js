@@ -2,6 +2,7 @@ import { Button, Card } from "flowbite-react";
 
 export function ProductoCard({ producto, agregarAlCarrito }) {
   return (
+    
     <Card className="w-52 my-5">
       <img className="w-52" src={producto.imagen}></img>
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
