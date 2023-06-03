@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { ProductoCard } from "./components/productoCard";
-import { AlertaExito } from "../components/alertas";
+import { AlertaExito } from "../../components/alertas";
 
 export default function Productos() {
   const [productos, actualizarProductos] = useState(null);
