@@ -17,6 +17,22 @@
 }
 
 body {
+  background: white;
+  align-items: center;
+}
+
+/* body {
+  align-items: center;
+  background: rgb(214, 185, 22);
+  background: linear-gradient(
+    90deg,
+    rgba(173, 175, 205, 1) 0%,
+    rgb(76, 85, 216) 49%,
+    rgba(195, 156, 156, 1) 100%
+  );
+} */
+
+#Home {
   align-items: center;
   background: rgb(214, 185, 22);
   background: linear-gradient(
