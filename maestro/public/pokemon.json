@@ -1,7 +1,7 @@
 {
     "productos": [
         {
-            "id": 0001,
+            "id": 1,
             "nombre": "Bulbasaur",
             "descripcion": "Este Pokémon nace con una semilla en el lomo, que brota con el paso del tiempo. ",
             "tipo": "planta,venedo",
@@ -13,7 +13,7 @@
             "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"
         },
         {
-            "id": 0001,
+            "id": 2,
             "nombre": "Bulbasaur",
             "descripcion": "Este Pokémon nace con una semilla en el lomo, que brota con el paso del tiempo. ",
             "tipo": "planta,venedo",
