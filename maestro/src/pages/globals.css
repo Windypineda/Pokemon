@@ -40,23 +40,25 @@ nav {
   background-color: rgb(180, 9, 9);
 }
 
-footer{
+footer {
   background-color: #032d55;
 }
 
-.formulariofondo{
+.formulariofondo {
   background-color: #032d55;
 }
+
 .text-gray-902 {
   color: #ffffff;
 }
+
 .text-gray-901 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
   color: aliceblue;
 }
 
-a{
+a {
   color: inherit;
   text-decoration: inherit;
   color: #ffdd00;
@@ -71,7 +73,8 @@ a{
 
 
 .boton1 {
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50;
+  /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -80,17 +83,33 @@ a{
   display: inline-block;
   font-size: 16px;
 }
-.imagen1{
+
+.imagen1 {
   width: 20%;
   height: 20%;
 }
 
-.titulos{
-  text-align: left; 
-font-family: Arial Black; 
-font-weight: bold; 
-font-size: 50px; 
-color: #032d55; 
-align-content: center;
-text-align: center;
+.titulos {
+  text-align: left;
+  font-family: Arial Black;
+  font-weight: bold;
+  font-size: 50px;
+  color: #032d55;
+  align-content: center;
+  text-align: center;
+}
+
+.fondo {
+  background-color: #081b53;
+  color: #ffffff;
+}
+
+
+
+.colorletranegro {
+  color: #000000;
+}
+
+.colorleblanca {
+  color: #ffffff;
 }

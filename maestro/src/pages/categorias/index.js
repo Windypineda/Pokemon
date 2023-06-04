@@ -24,7 +24,7 @@ export default function Categorias() {
       </div>
 
       <div>
-        <div className="flex flex-wrap justify-around">
+        <div className="flex flex-wrap justify-around ">
           {productos ? (
             productos.map((producto, index) => {
               return (

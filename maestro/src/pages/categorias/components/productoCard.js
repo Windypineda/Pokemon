@@ -3,16 +3,16 @@ import { Button, Card } from "flowbite-react";
 export function ProductoCard({ producto, agregarAlCarrito }) {
   return (
     <>
-      <Card className="w-52 my-5">
+      <Card className="w-52 my-5 fondo">
         <img className="w-52" src={producto.imagen}></img>
-        <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        <h5 className=" fondo text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           <p>{producto.nombre}</p>
         </h5>
-        <p className="font-normal text-gray-700 dark:text-gray-400">
+        <p className=" colorleblanca font-normal text-gray-700 dark:text-gray-400">
           {producto.descripcion}
         </p>
 
-        <p className="text-center font-normal text-gray-700 dark:text-gray-400">
+        <p className="colorleblanca text-center font-normal text-gray-700 dark:text-gray-400">
           {producto.tipo}
         </p>
         <Button
