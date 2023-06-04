@@ -108,8 +108,29 @@ a {
 
 .colorletranegro {
   color: #000000;
+  
 }
 
 .colorleblanca {
   color: #ffffff;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+}
+
+
+.columna {
+  width:33%;
+  float:left;
+}
+
+@media (max-width: 500px) {
+  
+  .columna {
+    width:auto;
+    float:none;
+  }
+  
 }

@@ -16,6 +16,10 @@ export default function Categorias() {
     llamarProductos();
   }, []);
 
+  function agregarAlCarrito(producto) {
+    console.log(producto);
+  }
+
   return (
     <Layout>
 
@@ -31,6 +35,7 @@ export default function Categorias() {
                 <ProductoCard
                   key={index}
                   producto={producto}
+                  agregarAlCarrito={agregarAlCarrito}
                 ></ProductoCard>
               );
             })
