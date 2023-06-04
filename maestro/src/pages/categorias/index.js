@@ -13,7 +13,6 @@ export default function Categorias() {
       const respuesta = await solicitud.json();
       actualizarProductos(respuesta.productos);
     }
-
     llamarProductos();
   }, []);
 
