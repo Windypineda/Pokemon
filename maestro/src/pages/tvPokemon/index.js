@@ -5,6 +5,9 @@ export default function TvPokemon(){
   return(
     <Layout>
       <h1>TvPokemon</h1>
+
+
+      
     </Layout>
   );
 }
