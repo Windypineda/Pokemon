@@ -54,7 +54,7 @@ export default function Navbar(){
                                 </a>
                             </Button>
                             <Button className="mx-5 m-auto drop-shadow-md transition duration-300 absolute -bottom-3 opacity-0  transition duration-300 ease-in-out hover:-translate-y-3 hover:opacity-100" alt="" id="Inicio">
-                                    <a href="/home" class="" aria-current="page">
+                                    <a href="/categorias" class="" aria-current="page">
                                         <img src="/imagenes/categorias2.png" className="" alt="" height="160" width="150" />
                                     </a>
                             </Button>
@@ -66,7 +66,7 @@ export default function Navbar(){
                                 </a>
                             </Button>
                             <Button className="mx-5 m-auto drop-shadow-md transition duration-300 absolute -bottom-3 opacity-0  transition duration-300 ease-in-out hover:-translate-y-3 hover:opacity-100" alt="" id="Inicio">
-                                    <a href="/home" class="" aria-current="page">
+                                    <a href="/tvPokemon" class="" aria-current="page">
                                         <img src="/imagenes/tvpokemon2.png" className="" alt="" height="160" width="150" />
                                     </a>
                             </Button>
