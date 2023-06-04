@@ -69,6 +69,7 @@ a{
   color: #032d55;
 }
 
+
 .boton1 {
   background-color: #4CAF50; /* Green */
   border: none;
@@ -82,4 +83,14 @@ a{
 .imagen1{
   width: 20%;
   height: 20%;
+}
+
+.titulos{
+  text-align: left; 
+font-family: Arial Black; 
+font-weight: bold; 
+font-size: 50px; 
+color: #032d55; 
+align-content: center;
+text-align: center;
 }
