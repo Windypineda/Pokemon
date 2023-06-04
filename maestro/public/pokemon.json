@@ -1,0 +1,28 @@
+{
+    "productos": [
+        {
+            "id": 0001,
+            "nombre": "Bulbasaur",
+            "descripcion": "Este Pokémon nace con una semilla en el lomo, que brota con el paso del tiempo. ",
+            "tipo": "planta,venedo",
+            "altura": "0,7m",
+            "categoria": "Semilla",
+            "peso": "6.9 kg",
+            "Habilidad": "Espesura",
+            "sexo": "M/F",
+            "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"
+        },
+        {
+            "id": 0001,
+            "nombre": "Bulbasaur",
+            "descripcion": "Este Pokémon nace con una semilla en el lomo, que brota con el paso del tiempo. ",
+            "tipo": "planta,venedo",
+            "altura": "0,7m",
+            "categoria": "Semilla",
+            "peso": "6.9 kg",
+            "Habilidad": "Espesura",
+            "sexo": "M/F",
+            "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png"
+        }
+    ]
+}
