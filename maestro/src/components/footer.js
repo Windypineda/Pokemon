@@ -1,28 +1,31 @@
 export default function Footer() {
     return (
         <>
-
-
-
-
-            <footer class="bg-white dark:bg-gray-900">
+            <footer class="bg-green dark:bg-gray-900 background-color">
                 <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                     <div class="md:flex md:justify-between">
                         <div class="mb-6 md:mb-0">
                             <a href="https://flowbite.com/" class="flex items-center">
-                                <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="FlowBite Logo" />
-                                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+                                <img src="imagenes/pokeball.png" class="h-20 mr-2" alt="Logo" />
+                                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">POKEMON</span>
                             </a>
                         </div>
                         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                             <div>
-                                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Conoce Mas</h2>
                                 <ul class="text-gray-600 dark:text-gray-400 font-medium">
                                     <li class="mb-4">
-                                        <a href="https://flowbite.com/" class="hover:underline">Flowbite</a>
+                                        <a href="/categorias" class="hover:underline">categorias</a>
                                     </li>
                                     <li>
-                                        <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
+                                        <a href="/tvPokemon" class="hover:underline">tvPokemon</a>
+                                    </li> <br></br>
+                                    <li>
+                                        <a href="/carrito" class="hover:underline">Compras</a>
+                                    </li> <br></br>
+                                    
+                                    <li>
+                                        <a href="/login" class="hover:underline">login</a>
                                     </li>
                                 </ul>
                             </div>

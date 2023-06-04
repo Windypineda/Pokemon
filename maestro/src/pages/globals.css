@@ -42,3 +42,19 @@ body {
     rgba(195, 156, 156, 1) 100%
   );
 }
+
+footer{
+  background-color: #032d55;
+}
+
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+  color: aliceblue;
+}
+
+a{
+  color: inherit;
+  text-decoration: inherit;
+  color: #ffdd00;
+}
