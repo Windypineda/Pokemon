@@ -6,19 +6,19 @@ export default function Navbar(){
         <div >
 
             <div className="justify-center max-w-full flex">
-                <div>
-                    <img src="/imagenes/Rojo.png" alt="" height="150" width="150" className="mx-5 my-5"/>
+                <div className="md:mx-5 md:my-5 sr-only md:not-sr-only">
+                    <img src="/imagenes/Rojo.png" alt="" height="150" width="150" className=""/>
                 </div>
-                <div className="my-6">
+                <div className="md:my-6 mx-5">
                     <a href="/home">
-                    <img src="/imagenes/VS7z.gif" alt="" height="600" width="600" a />
+                    <img src="/imagenes/VS7z.gif" alt="" height="600" width="600"/>
                     </a>
                 </div>
-                <div className="my-16">
-                    <img src="/imagenes/pokeball.png" alt="" height="250" width="250" a />
+                <div className="md:my-14 sr-only md:not-sr-only">
+                    <img src="/imagenes/pokeball.png" alt="" height="250" width="250"/>
                 </div>
-                <div>
-                    <img src="/imagenes/hoja.png" alt="" height="130" width="130" className="mx-5 my-7"/>
+                <div className="md:mx-5 md:my-7 sr-only md:not-sr-only">
+                    <img src="/imagenes/hoja.png" alt="" height="130" width="130"/>
                 </div>
             </div>
                 
@@ -34,26 +34,41 @@ export default function Navbar(){
                         <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/500/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                         </button>
 
-                    <ul class="flex" id="navbar-default">
-                        <li>
-                            <Button className="mx-5 relative w-150px drop-shadow-md" id="Inicio">
-                                    <a href="/home" class=" " aria-current="page">
-                                        <img src="/imagenes/inicio.png" id="Imagen-Inicio" alt="" height="150" width="150" />
+                    <ul class="flex sr-only md:not-sr-only" id="navbar-default">
+                        <li className="relative">
+                            <Button className="mx-5 m-auto drop-shadow-md transition duration-300 hover:opacity-25" id="Inicio">
+                                    <a href="/home" class="" aria-current="page">
+                                        <img src="/imagenes/inicio.png" className="" alt="" height="150" width="150" />
+                                    </a>
+                            </Button>
+                            <Button className="mx-5 m-auto drop-shadow-md transition duration-300 absolute -bottom-3 opacity-0  transition duration-300 ease-in-out hover:-translate-y-3 hover:opacity-100" alt="" id="Inicio">
+                                    <a href="/home" class="" aria-current="page">
+                                        <img src="/imagenes/inicio2.png" className="" alt="" height="160" width="150" />
                                     </a>
                             </Button>
                         </li>
-                        <li>
-                            <Button className="mx-5">
-                                <a href="/categorias" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">
+                        <li className="relative">
+                            <Button className="mx-5 m-auto drop-shadow-md transition duration-300 hover:opacity-25">
+                                <a href="/categorias" class="" aria-current="page">
                                     <img src="/imagenes/categorias.png" alt="" height="150" width="150" />
                                 </a>
                             </Button>
+                            <Button className="mx-5 m-auto drop-shadow-md transition duration-300 absolute -bottom-3 opacity-0  transition duration-300 ease-in-out hover:-translate-y-3 hover:opacity-100" alt="" id="Inicio">
+                                    <a href="/home" class="" aria-current="page">
+                                        <img src="/imagenes/categorias2.png" className="" alt="" height="160" width="150" />
+                                    </a>
+                            </Button>
                         </li>                    
-                        <li>
+                        <li className="relative">
                             <Button className="mx-5">
-                                <a href="/tvPokemon" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">
+                                <a href="/tvPokemon" class="">
                                     <img src="/imagenes/tvpokemon.png" alt="" height="150" width="150" />
                                 </a>
+                            </Button>
+                            <Button className="mx-5 m-auto drop-shadow-md transition duration-300 absolute -bottom-3 opacity-0  transition duration-300 ease-in-out hover:-translate-y-3 hover:opacity-100" alt="" id="Inicio">
+                                    <a href="/home" class="" aria-current="page">
+                                        <img src="/imagenes/tvpokemon2.png" className="" alt="" height="160" width="150" />
+                                    </a>
                             </Button>
                         </li>
                         <li>
