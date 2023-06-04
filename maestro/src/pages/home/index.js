@@ -3,11 +3,6 @@ import Layout from "@/layout/layout";
 
 export default function Home() {
   return (
-<<<<<<< HEAD
-      <Layout>
-        <div className="max-w-full flex justify-center p-2" id="video" >
-          <video loop autoPlay muted height="70%" width="70%"><source src="/videos/pokemon.mp4"></source></video>
-=======
     <Layout>
       <div className="max-w-full flex justify-center p-2" >
         <video loop autoPlay muted height="70%" width="70%"><source src="/videos/pokemon.mp4"></source></video>
@@ -23,7 +18,6 @@ export default function Home() {
             <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1" />
             <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2" />
           </div>
->>>>>>> 13170ebf2f2e1ec08676e5c5198d081727cc8ead
         </div>
       </section>
     </Layout>
