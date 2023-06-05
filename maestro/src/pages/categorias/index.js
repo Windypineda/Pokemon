@@ -56,7 +56,7 @@ export default function Categorias() {
       </div>
 
       <div>
-        <div className="flex flex-wrap justify-around ">
+        <div className="flex flex-wrap justify-around bg-[url('/imagenes/fondo1.jpg')] bg-cover bg-no-repeat">
           {productos ? (
             productos.map((producto, index) => {
               return (

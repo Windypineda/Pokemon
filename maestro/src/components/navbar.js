@@ -1,11 +1,12 @@
 import { Button } from "flowbite-react";
+import { Dropdown } from "flowbite-react";
 
 
 export default function Navbar(){
     return(
         <div >
 
-            <div className="justify-center max-w-full flex">
+            <div className="justify-center max-w-full flex bg-[url('/imagenes/fondo1.jpg')]">
                 <div className="md:mx-5 md:my-5 sr-only md:not-sr-only">
                     <img src="/imagenes/Rojo.png" alt="" height="150" width="150" className=""/>
                 </div>
@@ -27,76 +28,108 @@ export default function Navbar(){
 
             <nav class="">
 
-                <div className="max-w-full flex justify-center p-2" >
+                <div className="max-w-full flex p-2 justify-center" >
 
-                        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-50 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-                        <span class="sr-only">Open main menu</span>
-                        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/500/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-                        </button>
-
-                    <ul class="flex sr-only md:not-sr-only" id="navbar-default">
-                        <li className="relative">
-                            <Button className="mx-5 m-auto drop-shadow-md transition duration-300 hover:opacity-25" id="Inicio">
-                                    <a href="/home" class="" aria-current="page">
-                                        <img src="/imagenes/inicio.png" className="" alt="" height="150" width="150" />
-                                    </a>
-                            </Button>
-                            <Button className="mx-5 m-auto drop-shadow-md transition duration-300 absolute -bottom-3 opacity-0  transition duration-300 ease-in-out hover:-translate-y-3 hover:opacity-100" alt="" id="Inicio">
-                                    <a href="/home" class="" aria-current="page">
-                                        <img src="/imagenes/inicio2.png" className="" alt="" height="160" width="150" />
-                                    </a>
-                            </Button>
-                        </li>
-                        <li className="relative">
-                            <Button className="mx-5 m-auto drop-shadow-md transition duration-300 hover:opacity-25">
-                                <a href="/categorias" class="" aria-current="page">
-                                    <img src="/imagenes/categorias.png" alt="" height="150" width="150" />
-                                </a>
-                            </Button>
-                            <Button className="mx-5 m-auto drop-shadow-md transition duration-300 absolute -bottom-3 opacity-0  transition duration-300 ease-in-out hover:-translate-y-3 hover:opacity-100" alt="" id="Inicio">
+                    <div className="">
+                        <ul className="flex sr-only md:not-sr-only " id="navbar-default">
+                            <li className="relative">
+                                <Button className="mx-5 m-auto drop-shadow-md transition duration-300 hover:opacity-25" id="Inicio">
+                                        <a href="/home" class="" aria-current="page">
+                                            <img src="/imagenes/inicio.png" className="" alt="" height="150" width="150" />
+                                        </a>
+                                </Button>
+                                <Button className="mx-5 m-auto drop-shadow-md transition duration-300 absolute -bottom-3 opacity-0  transition duration-300 ease-in-out hover:-translate-y-3 hover:opacity-100" alt="" id="Inicio">
+                                        <a href="/home" class="" aria-current="page">
+                                            <img src="/imagenes/inicio2.png" className="" alt="" height="160" width="150" />
+                                        </a>
+                                </Button>
+                            </li>
+                            <li className="relative">
+                                <Button className="mx-5 m-auto drop-shadow-md transition duration-300 hover:opacity-25">
                                     <a href="/categorias" class="" aria-current="page">
-                                        <img src="/imagenes/categorias2.png" className="" alt="" height="160" width="150" />
+                                        <img src="/imagenes/categorias.png" alt="" height="150" width="150" />
                                     </a>
-                            </Button>
-                        </li>                    
-                        <li className="relative">
-                            <Button className="mx-5">
-                                <a href="/tvPokemon" className="">
-                                    <img src="/imagenes/tvpokemon.png" alt="" height="150" width="150" />
-                                </a>
-                            </Button>
-                            <Button className="mx-5 m-auto drop-shadow-md transition duration-300 absolute -bottom-3 opacity-0  transition duration-300 ease-in-out hover:-translate-y-3 hover:opacity-100" alt="" id="Inicio">
-                                    <a href="/tvPokemon" class="" aria-current="page">
-                                        <img src="/imagenes/tvpokemon2.png" className="" alt="" height="160" width="150" />
+                                </Button>
+                                <Button className="mx-5 m-auto drop-shadow-md transition duration-300 absolute -bottom-3 opacity-0  transition duration-300 ease-in-out hover:-translate-y-3 hover:opacity-100" alt="" id="Inicio">
+                                        <a href="/categorias" class="" aria-current="page">
+                                            <img src="/imagenes/categorias2.png" className="" alt="" height="160" width="150" />
+                                        </a>
+                                </Button>
+                            </li>                    
+                            <li className="relative">
+                                <Button className="mx-5">
+                                    <a href="/tvPokemon" className="">
+                                        <img src="/imagenes/tvpokemon.png" alt="" height="150" width="150" />
                                     </a>
-                            </Button>
-                        </li>
-                        <li className="relative">
-                            <Button className="mx-5">
-                                <a href="/pokeAPI" className=" top-0 right-0" aria-current="page">
-                                    <img src="/imagenes/pokeAPI1.png" alt="" height="150" width="150" />
-                                </a>
-                            </Button>
-                            <Button className="mx-5 m-auto drop-shadow-md transition duration-300 absolute -bottom-3 opacity-0  transition duration-300 ease-in-out hover:-translate-y-3 hover:opacity-100" alt="" id="Inicio">
-                                    <a href="/pokeAPI" className="" aria-current="page">
-                                        <img src="/imagenes/pokeAPI2.png" className="" alt="" height="160" width="150" />
+                                </Button>
+                                <Button className="mx-5 m-auto drop-shadow-md transition duration-300 absolute -bottom-3 opacity-0  transition duration-300 ease-in-out hover:-translate-y-3 hover:opacity-100" alt="" id="Inicio">
+                                        <a href="/tvPokemon" class="" aria-current="page">
+                                            <img src="/imagenes/tvpokemon2.png" className="" alt="" height="160" width="150" />
+                                        </a>
+                                </Button>
+                            </li>
+                            <li className="relative">
+                                <Button className="mx-5">
+                                    <a href="/pokeAPI" className=" top-0 right-0" aria-current="page">
+                                        <img src="/imagenes/pokeAPI1.png" alt="" height="150" width="150" />
                                     </a>
-                            </Button>
-                        </li>
-                        <li className="relative">
-                            <Button className="mx-5">
-                                <a href="/login" className=" top-0 right-0" aria-current="page">
-                                    <img src="/imagenes/login.png" alt="" height="150" width="150" />
-                                </a>
-                            </Button>
-                            <Button className="mx-5 m-auto drop-shadow-md transition duration-300 absolute -bottom-3 opacity-0  transition duration-300 ease-in-out hover:-translate-y-3 hover:opacity-100" alt="" id="Inicio">
-                                    <a href="/login" className="" aria-current="page">
-                                        <img src="/imagenes/login2.png" className="" alt="" height="160" width="150" />
+                                </Button>
+                                <Button className="mx-5 m-auto drop-shadow-md transition duration-300 absolute -bottom-3 opacity-0  transition duration-300 ease-in-out hover:-translate-y-3 hover:opacity-100" alt="" id="Inicio">
+                                        <a href="/pokeAPI" className="" aria-current="page">
+                                            <img src="/imagenes/pokeAPI2.png" className="" alt="" height="160" width="150" />
+                                        </a>
+                                </Button>
+                            </li>
+                            <li className="relative">
+                                <Button className="mx-5">
+                                    <a href="/login" className=" top-0 right-0" aria-current="page">
+                                        <img src="/imagenes/login.png" alt="" height="150" width="150" />
                                     </a>
-                            </Button>
-                        </li>
+                                </Button>
+                                <Button className="mx-5 m-auto drop-shadow-md transition duration-300 absolute -bottom-3 opacity-0  transition duration-300 ease-in-out hover:-translate-y-3 hover:opacity-100" alt="" id="Inicio">
+                                        <a href="/login" className="" aria-current="page">
+                                            <img src="/imagenes/login2.png" className="" alt="" height="160" width="150" />
+                                        </a>
+                                </Button>
+                            </li>
+                        </ul>
+                    </div>
 
-                    </ul>
+                </div>
+            </nav>
+
+            <nav class="">
+
+                <div className="max-w-full pb-4 pl-4 flex not-sr-only md:sr-only" >
+                    <div>
+                        <Dropdown label="MENU" className="">
+                            <Dropdown.Item>
+                                <a href="/home" >
+                                    <p className="text-red-950">INICIO</p> 
+                                    </a>
+                            </Dropdown.Item>
+                            <Dropdown.Item>
+                                <a href="/categorias" class="" aria-current="page">
+                                    <p className="text-red-950">CATEGORIAS</p> 
+                                </a>
+                            </Dropdown.Item>
+                            <Dropdown.Item>
+                                <a href="/tvPokemon" class="" aria-current="page">
+                                    <p className="text-red-950">TV POKEMON</p>
+                                </a>
+                            </Dropdown.Item>
+                            <Dropdown.Item>
+                                <a href="/pokeAPI" class="" aria-current="page">
+                                    <p className="text-red-950">POKEAPI</p> 
+                                </a>
+                            </Dropdown.Item>
+                            <Dropdown.Item>
+                                <a href="/login" class="" aria-current="page">
+                                    <p className="text-red-950">INICIAR SESION</p> 
+                                </a>
+                            </Dropdown.Item>
+                        </Dropdown>
+                    </div>
                 </div>
             </nav>
         </div>

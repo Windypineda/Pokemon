@@ -22,7 +22,7 @@ const Pokemon = () => {
             color="failure"
           />
           :
-          <div className="">
+          <div className="bg-[url('/imagenes/fondo1.jpg')] bg-cover bg-no-repeat">
             <Cards results={pokemon.results}/>
           </div>
         }

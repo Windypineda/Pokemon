@@ -7,7 +7,7 @@ export default function Home() {
       <div className="max-w-full flex justify-center p-2" id="video" >
         <video loop autoPlay muted height="70%" width="70%"><source src="/videos/pokemon.mp4"></source></video>
       </div>
-      <section class="bg-white dark:bg-gray-900">
+      <section class="bg-white dark:bg-gray-900 bg-[url('/imagenes/fondo1.jpg')] bg-cover bg-no-repeat" >
         <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
           <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Pokémon sus Inicios !</h2>
