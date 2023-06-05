@@ -53,7 +53,7 @@ export default function Categorias() {
             productos.map((producto, index) => {
               return (
                 <>
-                 {!mostrarModal && (
+                  {!mostrarModal && (
                   <ProductoCard
                     key={index}
                     producto={producto}

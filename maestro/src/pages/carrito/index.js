@@ -1,21 +1,34 @@
+import Layout from "@/layout/layout";
+import React, { useState } from "react";
+import { UseFetch } from "./components/useFetch";
+import { Cards } from "./components/cards";
+import { Spinner } from 'flowbite-react';
 
 
+const Pokemon = () => {
+  const [url, setUrl] = useState('https://pokeapi.co/api/v2/pokemon')
+  const estado = UseFetch(url)
+  const {cargando, pokemon} = estado
+  cargando ? console.log('cargando'):console.log(pokemon.results)
 
-import ReactPlayer from 'react-player';
-
-import React from 'react'
-import Player from 'react-player'
-function App() {
   return (
-    <div className="contenedor">
-      <ReactPlayer
-      url='./videos/pokemon.mp4'
-      width='100%'
-      height='100%'
-      controls
-      loop
-      />
-    </div>
-  );
+    <Layout>
+      <>
+        {
+          cargando
+          ?
+          <Spinner
+            aria-label="Failure spinner example"
+            color="failure"
+          />
+          :
+          <div className="">
+            <Cards results={pokemon.results}/>
+          </div>
+        }
+      </>
+    </Layout>
+  )
 }
-export default App;
+
+export default Pokemon;
