@@ -3,7 +3,7 @@ import { Button, Card } from "flowbite-react";
 export function ProductoCard({ producto, agregarAlCarrito }) {
   return (
 
-    <Card className="fondovideos w-200 my-100">
+    <Card className="fondovideos w-50 my-50">
 
       <h5 className="fondovideos text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
         <p>{producto.titulo}</p>
