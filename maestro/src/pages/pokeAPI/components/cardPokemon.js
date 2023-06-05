@@ -19,8 +19,8 @@ export const CardPokemon = ({url}) => {
         />
         :
         <div>
-          <Card className="w-52 my-5 fondo">
-            <img className="w-52" src={pokemon.sprites.front_default}></img>
+          <Card className="w-52 h-100 my-5 fondo justify-center ">
+            <img className="w-52 h-52 justify-center" src={pokemon.sprites.other.dream_world.front_default}></img>
             <h5 className=" fondo text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
               <p>{pokemon.forms[0].name}</p>
             </h5>
