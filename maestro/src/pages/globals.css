@@ -108,7 +108,7 @@ a {
 
 .colorletranegro {
   color: #000000;
-  text-decoration: underline rgb(0, 0, 0);
+
   
 }
 
@@ -136,8 +136,16 @@ a {
   
 }
 .fondovideos{
-  background-color: #ffd622;
+  background-color: rgb(31, 41, 55);
   align-content: center;
   text-align: center;
+  color: #ffffff;
   
+  margin: 10px auto;
+  
+  
+}
+.subrallado{
+  color: #ffffff;
+  text-decoration: underline #ffffff;
 }

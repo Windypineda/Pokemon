@@ -7,6 +7,7 @@ export default function Categorias() {
   const [productos, actualizarProductos] = useState(null);
   const [alerta, actualizarAlerta] = useState(false);
   const [mostrarModal, setMostrarModal] = useState(false);
+  let titulo = "Pokemon";
   useEffect(() => {
     async function llamarProductos() {
       const solicitud = await fetch("./pokemon.json");
@@ -16,28 +17,35 @@ export default function Categorias() {
     llamarProductos();
   }, []);
 
-  async function agregarAlCarrito(producto) {
+  function agregarAlCarrito(producto) {
     console.log(producto);
-    productos: [
-      {
+    let productosjson= [
+        { 
           "id": producto.id,
           "nombre": producto.nombre,
           "descripcion": producto.descripcion,
-          "tipo":producto.tipo,
-          "altura":producto.altura,
+          "tipo": producto.tipo,
+          "altura": producto.altura,
           "categoria": producto.categoria,
-          "peso":producto.peso,
-          "Habilidad":producto.Habilidad,
-          "sexo":producto.sexo,
-          "Debilidad":producto.Debilidad,
+          "peso": producto.peso,
+          "Habilidad": producto.Habilidad,
+          "sexo": producto.sexo,
+          "Debilidad": producto.Debilidad,
           "imagen": producto.imagen
-      }];
-    actualizarProductos(productos);
+        }];
     setMostrarModal(true);
+    actualizarProductos(productosjson);
   }
   function volver(producto) {
     console.log(producto);
     setMostrarModal(false);
+    async function llamarProductos() {
+      const solicitud = await fetch("./pokemon.json");
+      const respuesta = await solicitud.json();
+      actualizarProductos(respuesta.productos);
+    }
+    llamarProductos();
+
   }
 
   return (
@@ -54,20 +62,22 @@ export default function Categorias() {
               return (
                 <>
                   {!mostrarModal && (
-                  <ProductoCard
-                    key={index}
-                    producto={producto}
-                    agregarAlCarrito={agregarAlCarrito}
-                    setMostrarModal={!setMostrarModal}
-                  ></ProductoCard>
+                    <ProductoCard
+                      key={index}
+                      titulo={titulo}
+                      producto={producto}
+                      agregarAlCarrito={agregarAlCarrito}
+                      setMostrarModal={!setMostrarModal}
+                    ></ProductoCard>
                   )}
                   {mostrarModal && (
-                  <PokemonDetalle
-                    key={index}
-                    producto={producto}
-                    volver={volver}
-                    setMostrarModal={setMostrarModal}
-                  ></PokemonDetalle>
+                    <PokemonDetalle
+                      key={index}
+                      titulo={titulo}
+                      producto={producto}
+                      volver={volver}
+                      setMostrarModal={setMostrarModal}
+                    ></PokemonDetalle>
                   )}
                 </>
 

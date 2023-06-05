@@ -1,9 +1,10 @@
 import { Button, Card } from "flowbite-react";
 
-export function ProductoCard({ producto, agregarAlCarrito }) {
+export function ProductoCard({ producto, agregarAlCarrito,titulo }) {
   return (
     <>
-      <Card className="w-52 my-5 fondo">
+      <Card className="fondovideos w-60 my-10 fondo">
+      {titulo}
         <img className="w-52" src={producto.imagen}></img>
         <h5 className=" fondo text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           <p>{producto.nombre}</p>

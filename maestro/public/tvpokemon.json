@@ -2,19 +2,219 @@
     "productos": [
         {
             "id": 1,
-            "titulo": "Bulbasaur",
-            "descripcion": "Este Pokémon nace con una semilla en el lomo, que brota con el paso del tiempo. ",
+            "titulo": "¡El camino a la presentación en pareja!",
+            "descripcion": "Episodio 1",
             "video": "https://watch.pokemon.com/es-xl/#/player?id=ce8d23979d0d422b8411b6172704a67d&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
             "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep01_ss01_360_206.jpg"
         },
         {
             "id": 2,
-            "titulo": "Bulbasaur",
-            "descripcion": "Este Pokémon nace con una semilla en el lomo, que brota con el paso del tiempo. ",
-            "video": "https://watch.pokemon.com/es-xl/#/player?id=ce8d23979d0d422b8411b6172704a67d&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
-            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep01_ss01_360_206.jpg"
+            "titulo": "¡La luz y la oscuridad se enfrentan!",
+            "descripcion": "Episodio 2",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=57476f18443843d79ef9d70fc4ecd8c0&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep02_ss01_360_206.jpg"
+        },
+
+        {
+            "id": 3,
+            "titulo": "¡Un hogar en el mar!",
+            "descripcion": "Episodio 3",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=3219ab2033694302b71fc63a2b6eec66&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep03_ss01_360_206.jpg"
+        },
+        {
+            "id": 4,
+            "titulo": "¡ Un Desafio Sigiloso!",
+            "descripcion": "Episodio 4",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=e430325d2eb74f5e9dd39752969ddf7c&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep04_ss01_360_206.jpg"
+        },
+        {
+            "id": 5,
+            "titulo": "¡ Una Carrera a Casa!",
+            "descripcion": "Episodio 5",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=49433bc9f0ce44a798c6b9921f7dc8b6&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep05_ss01_360_206.jpg"
+        },
+        {
+            "id":6 ,
+            "titulo": "¡Enfrentando el  malvado plan!",
+            "descripcion": "Episodio 6 ",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=3a24e57c2d574e608a7dfa68f5b41891&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep06_ss01_360_206.jpg"
+        },
+
+
+        {
+            "id": 7,
+            "titulo": "¡Un encuentro resbaloso!",
+            "descripcion": "Episodio 7 ",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=30a0c04e2472438799e922c19c37eea7&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep07_ss01_360_206.jpg"
+        },
+        {
+            "id":8 ,
+            "titulo": "¡Uno por Goomy!",
+            "descripcion": "Episodio 8 ",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=e45b572a9ce44b7b8b9344c9606ebe64&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep08_ss01_360_206.jpg"
+        },
+        {
+            "id": 9,
+            "titulo": "¡Derritiendo un pánico helado!",
+            "descripcion": "Episodio 9",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=9ab4f17304bc47b5a8df00a352458939&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep09_ss01_360_206.jpg"
+        },
+        {
+            "id":10 ,
+            "titulo": "¡VErde hogar de los Tipo Planta!",
+            "descripcion": "Episodio  10",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=12076d949b264368bf0ae409e4fa55ef&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep10_ss01_360_206.jpg"
+        },
+        {
+            "id": 11,
+            "titulo": "¡Bajo el Árbol de la Promesa!",
+            "descripcion": "Episodio 11 ",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=b6023532dee24d9794ac97c9924e9c48&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep11_ss01_360_206.jpg"
+        },
+        {
+            "id":12 ,
+            "titulo": "¡Un debut de Exhibición!",
+            "descripcion": "Episodio 12",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=62711a60d1e74af9bc091f5309b1f796&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep12_ss01_360_206.jpg"
+        },
+        {
+            "id":13 ,
+            "titulo": "¡Un oasis de esperanza!",
+            "descripcion": "Episodio 13 ",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=5607d6f3790e49958dc4db7e2dfb124a&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep13_ss01_360_206.jpg"
+        },
+        {
+            "id":14 ,
+            "titulo": "¡El futuro es ahora!",
+            "descripcion": "Episodio 14 ",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=30502b3f6a5c4b358021673d97b1b43b&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep14_ss01_360_206.jpg"
+        },
+        {
+            "id": 15,
+            "titulo": "¡Una bifurcación en el camino!",
+            "descripcion": "Episodio 15 ",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=2e4d7ff4d89e490aa04ac30e092f7dc0&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep15_ss01_360_206.jpg"
+        },
+        {
+            "id": 16,
+            "titulo": "¡Luchando con elegancia y  sonrisa!",
+            "descripcion": "Episodio 16 ",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=4813e11fe2e6481686e7aecfcf3b0895&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep16_ss01_360_206.jpg"
+        },
+        {
+            "id": 17,
+            "titulo": "¡Buenos amigos y un entrenamiento!",
+            "descripcion": "Episodio 17 ",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=e0c4fcd8ed2e4601a385f28166e24f78&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep17_ss01_360_206.jpg"
+        },
+        {
+            "id": 18,
+            "titulo": "¡Confrontando la oscuridad!",
+            "descripcion": "Episodio 18 ",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=e3fac993d5bc43c2bbaafc5d529ab7a1&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep18_ss01_360_206.jpg"
+        },
+        {
+            "id": 19,
+            "titulo": "¡El momento de la verdad !",
+            "descripcion": "Episodio 19 ",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=f1efb1adbaa840acbea443d9d55bd015&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep19_ss01_360_206.jpg"
+        },
+        {
+            "id": 20,
+            "titulo": "¡El mega vínculo de Garchomp!",
+            "descripcion": "Episodio 20 ",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=64528b2bad794b758b23dbc35f2bcafb&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep20_ss01_360_206.jpg"
+        },
+        {
+            "id": 21,
+            "titulo": "¡Defendiendo el hogar!",
+            "descripcion": "Episodio 21 ",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=a670ce48e5974392bc85cc32ae1ea3e7&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep21_ss01_360_206.jpg"
+        },
+        {
+            "id": 22,
+            "titulo": "¡Mas allá del arcoíris!",
+            "descripcion": "Episodio 22 ",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=abe18707f6224a4a8741f24e27b321ab&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep22_ss01_360_206.jpg"
+        },
+        {
+            "id": 23,
+            "titulo": "¿Así que tienes un mal día?",
+            "descripcion": "Episodio 23 ",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=2c5ddb35546b42f6900f29b0e31da374&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep23_ss01_360_206.jpg"
+        },
+        {
+            "id": 24,
+            "titulo": "¡Una temible hospitalidad!",
+            "descripcion": "Episodio 24",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=71f825c91c9d41cc86a2f75e5ee08e33&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep24_ss01_360_206.jpg"
+        },
+        {
+            "id": 25,
+            "titulo": "¡Una batalla a la moda!",
+            "descripcion": "Episodio 25 ",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=1e11826911384319bb0321cdad16a47e&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep25_ss01_360_206.jpg"
+        },
+        {
+            "id": 26,
+            "titulo": "¡Estrategias tipo Hada!",
+            "descripcion": "Episodio 26 ",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=baea87d9bec149ab8f746ac81dd29169&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep26_ss01_360_206.jpg"
+        },
+        {
+            "id": 27,
+            "titulo": "¡Rivales hoy y mañana!",
+            "descripcion": "Episodio 27 ",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=74a60baa03894cc19c9648a7d6955ddc&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep27_ss01_360_206.jpg"
+        },
+        {
+            "id": 28,
+            "titulo": "¡Un inicio no tan airoso!",
+            "descripcion": "Episodio 28 ",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=b422808aee5444bfb3dee6014a51c3b3&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep28_ss01_360_206.jpg"
+        },
+        {
+            "id": 29,
+            "titulo": "¡Un relevo en el cielo!",
+            "descripcion": "Episodio 29 ",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=61febc60840e4abaab7bf4370909cb41&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep29_ss01_360_206.jpg"
+        },
+        {
+            "id": 30,
+            "titulo": "¡Fiasco en la frenética fábrica!",
+            "descripcion": "Episodio 30 ",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=917c42b4e7cc4c8ba81dd6821c860db4&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep30_ss01_360_206.jpg"
         }
-      
+    
+   
     ]
     
 }
