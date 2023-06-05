@@ -2,19 +2,63 @@
     "productos": [
         {
             "id": 1,
-            "titulo": "Bulbasaur",
-            "descripcion": "Este Pokémon nace con una semilla en el lomo, que brota con el paso del tiempo. ",
+            "titulo": "¡El camino a la presentación en pareja!",
+            "descripcion": "Luego de una riña entre amigos, un encuentro fortuito les da a nuestros héroes la oportunidad de un inesperado trabajo en equipo.",
             "video": "https://watch.pokemon.com/es-xl/#/player?id=ce8d23979d0d422b8411b6172704a67d&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
             "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep01_ss01_360_206.jpg"
         },
         {
             "id": 2,
-            "titulo": "Bulbasaur",
-            "descripcion": "Este Pokémon nace con una semilla en el lomo, que brota con el paso del tiempo. ",
-            "video": "https://watch.pokemon.com/es-xl/#/player?id=ce8d23979d0d422b8411b6172704a67d&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "titulo": "¡Cuando la luz y la oscuridad se enfrentan!",
+            "descripcion": "Luego de que Ash comete un error, su Hawlucha encuentra la actuación de su vida.",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=57476f18443843d79ef9d70fc4ecd8c0&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
             "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep02_ss01_360_206.jpg"
+        },
+
+        {
+            "id": 3,
+            "titulo": "¡Un hogar en el mar!",
+            "descripcion": "¡Antes de la Batalla de Gimnasio de Ash en Ciudad Cyllage, una visita a la Muralla Costera lleva a nuestros héroes a una aventura acuática llena de Pokémon submarinos!",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=3219ab2033694302b71fc63a2b6eec66&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep03_ss01_360_206.jpg"
+        },
+        {
+            "id": 4,
+            "titulo": "¡Un desafio sigiloso!",
+            "descripcion": "https://watch.pokemon.com/es-xl/#/player?id=e430325d2eb74f5e9dd39752969ddf7c&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=e430325d2eb74f5e9dd39752969ddf7c&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep04_ss01_360_206.jpg"
+        },
+        {
+            "id": 5,
+            "titulo": "¡El camino a la presentación en pareja!",
+            "descripcion": "Luego de una riña entre amigos, un encuentro fortuito les da a nuestros héroes la oportunidad de un inesperado trabajo en equipo.",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=ce8d23979d0d422b8411b6172704a67d&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep01_ss01_360_206.jpg"
+        },
+        {
+            "id": 6,
+            "titulo": "¡Cuando la luz y la oscuridad se enfrentan!",
+            "descripcion": "Luego de que Ash comete un error, su Hawlucha encuentra la actuación de su vida.",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=57476f18443843d79ef9d70fc4ecd8c0&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep02_ss01_360_206.jpg"
+        },
+
+        {
+            "id": 7,
+            "titulo": "¡Un hogar en el mar!",
+            "descripcion": "¡Antes de la Batalla de Gimnasio de Ash en Ciudad Cyllage, una visita a la Muralla Costera lleva a nuestros héroes a una aventura acuática llena de Pokémon submarinos!",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=3219ab2033694302b71fc63a2b6eec66&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep03_ss01_360_206.jpg"
+        },
+        {
+            "id": 8,
+            "titulo": "¡Un desafio sigiloso!",
+            "descripcion": "https://watch.pokemon.com/es-xl/#/player?id=e430325d2eb74f5e9dd39752969ddf7c&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "video": "https://watch.pokemon.com/es-xl/#/player?id=e430325d2eb74f5e9dd39752969ddf7c&channelId=serie-pokemon-xy-expediciones-en-kalos&cameFromHome=false",
+            "imagen":"https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season18/season18_ep04_ss01_360_206.jpg"
         }
-      
+   
     ]
     
 }
