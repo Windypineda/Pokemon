@@ -140,6 +140,10 @@ a {
   align-content: center;
   text-align: center;
   color: #ffffff;
+  
+  margin: 10px auto;
+  
+  
 }
 .subrallado{
   color: #ffffff;

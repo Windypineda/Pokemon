@@ -27,7 +27,7 @@ export default function TvPokemon() {
 
             <div class="titulos">
               TvPokemon
-            </div>
+            </div><br></br>
             <p class="colorletranegro">Ve increíbles aventuras de dibujos animados Pokémon con Ash, Pikachu y sus amigos como protagonistas. ¡No te pierdas las películas, los episodios y otros especiales de dibujos animados!</p>
           </div>
           <div class="grid grid-cols-2 gap-4 mt-8">
