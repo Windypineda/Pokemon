@@ -61,7 +61,7 @@ export default function Navbar(){
                         </li>                    
                         <li className="relative">
                             <Button className="mx-5">
-                                <a href="/tvPokemon" class="">
+                                <a href="/tvPokemon" className="">
                                     <img src="/imagenes/tvpokemon.png" alt="" height="150" width="150" />
                                 </a>
                             </Button>
@@ -73,22 +73,27 @@ export default function Navbar(){
                         </li>
                         <li className="relative">
                             <Button className="mx-5">
-                                <a href="/login" class=" top-0 right-0" aria-current="page">
+                                <a href="/pokeAPI" className=" top-0 right-0" aria-current="page">
+                                    <img src="/imagenes/pokeAPI1.png" alt="" height="150" width="150" />
+                                </a>
+                            </Button>
+                            <Button className="mx-5 m-auto drop-shadow-md transition duration-300 absolute -bottom-3 opacity-0  transition duration-300 ease-in-out hover:-translate-y-3 hover:opacity-100" alt="" id="Inicio">
+                                    <a href="/pokeAPI" className="" aria-current="page">
+                                        <img src="/imagenes/pokeAPI2.png" className="" alt="" height="160" width="150" />
+                                    </a>
+                            </Button>
+                        </li>
+                        <li className="relative">
+                            <Button className="mx-5">
+                                <a href="/login" className=" top-0 right-0" aria-current="page">
                                     <img src="/imagenes/login.png" alt="" height="150" width="150" />
                                 </a>
                             </Button>
                             <Button className="mx-5 m-auto drop-shadow-md transition duration-300 absolute -bottom-3 opacity-0  transition duration-300 ease-in-out hover:-translate-y-3 hover:opacity-100" alt="" id="Inicio">
-                                    <a href="/login" class="" aria-current="page">
+                                    <a href="/login" className="" aria-current="page">
                                         <img src="/imagenes/login2.png" className="" alt="" height="160" width="150" />
                                     </a>
                             </Button>
-                        </li>
-                        <li>
-                            {/* <Button className="mx-5">
-                                <a href="/carrito" class="">
-                                    <img src="/imagenes/carrito.gif" alt="" height="150" width="150" className="rounded-full"/>
-                                </a>
-                            </Button> */}
                         </li>
 
                     </ul>
