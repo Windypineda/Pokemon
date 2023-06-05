@@ -71,11 +71,16 @@ export default function Navbar(){
                                     </a>
                             </Button>
                         </li>
-                        <li>
+                        <li className="relative">
                             <Button className="mx-5">
                                 <a href="/login" class=" top-0 right-0" aria-current="page">
                                     <img src="/imagenes/login.png" alt="" height="150" width="150" />
                                 </a>
+                            </Button>
+                            <Button className="mx-5 m-auto drop-shadow-md transition duration-300 absolute -bottom-3 opacity-0  transition duration-300 ease-in-out hover:-translate-y-3 hover:opacity-100" alt="" id="Inicio">
+                                    <a href="/login" class="" aria-current="page">
+                                        <img src="/imagenes/login2.png" className="" alt="" height="160" width="150" />
+                                    </a>
                             </Button>
                         </li>
                         <li>
